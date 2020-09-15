@@ -1,0 +1,893 @@
+DEBUG 2020-09-15 12:50:28,448 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 12:50:28,563 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 12:50:28,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.Web.Startup.StudentMSWebMvcModule, StudentMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSWebCoreModule, StudentMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSApplicationModule, StudentMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSCoreModule, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.EntityFrameworkCore.StudentMSEntityFrameworkModule, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:28,602 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 12:50:28,714 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 12:50:28,714 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 12:50:28,714 [1    ] o.Configuration.LanguageManagementConfig - Converted StudentMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 12:50:28,714 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 12:50:29,292 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: StudentMS.EntityFrameworkCore.StudentMSDbContext, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 12:50:30,993 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 12:50:31,213 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 12:50:31,341 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 12:50:31,375 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StudentMS
+DEBUG 2020-09-15 12:50:31,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 12:50:31,815 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 12:50:32,030 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[StudentMS.MultiTenancy.Tenant, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[StudentMS.Authorization.Users.User, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 12:50:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-09-15 12:50:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 12:50:32,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 12:50:32,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.UserDto
+DEBUG 2020-09-15 12:50:32,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 12:50:32,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 12:50:35,932 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 12:50:36,528 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Will\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 12:50:36,600 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 12:50:36,753 [4    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-09-15 12:50:36,760 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-09-15 12:50:36,783 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 12:50:36,786 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.3938ms 302 
+INFO  2020-09-15 12:50:36,801 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:50:40,803 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller StudentMS.Web.Controllers.AccountController (StudentMS.Web.Mvc).
+INFO  2020-09-15 12:50:44,548 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 12:50:45,287 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 775.705ms.
+INFO  2020-09-15 12:50:45,294 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc) in 4488.5765ms
+INFO  2020-09-15 12:50:45,297 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:50:45,315 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8526.2121ms 200 text/html; charset=utf-8
+INFO  2020-09-15 12:50:45,398 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 12:50:45,405 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 12:50:45,410 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-15 12:50:45,416 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 12:50:45,418 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 12:50:45,435 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-09-15 12:50:45,453 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.7299ms 404 
+INFO  2020-09-15 12:50:45,459 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.1278ms 404 
+INFO  2020-09-15 12:50:45,465 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.0547ms 404 
+INFO  2020-09-15 12:50:45,467 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-09-15 12:50:45,471 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.3721ms 404 
+INFO  2020-09-15 12:50:45,476 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 12:50:45,491 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.9913ms 404 
+INFO  2020-09-15 12:50:45,496 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 12:50:45,502 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 12:50:45,505 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 12:50:45,511 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.4588ms 404 
+INFO  2020-09-15 12:50:45,520 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.0981ms 404 
+INFO  2020-09-15 12:50:45,526 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.8644ms 404 
+INFO  2020-09-15 12:50:45,546 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 12:50:45,554 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-09-15 12:50:45,562 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.3666ms 404 
+INFO  2020-09-15 12:50:45,564 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 12:50:45,577 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.2532ms 404 
+INFO  2020-09-15 12:50:45,582 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-09-15 12:50:45,583 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-09-15 12:50:45,583 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-09-15 12:50:45,583 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-09-15 12:50:45,584 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 12:50:45,583 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 12:50:45,590 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.7793ms 200 application/javascript
+INFO  2020-09-15 12:50:45,595 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 155.029ms 200 text/css
+INFO  2020-09-15 12:50:45,599 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 194.7453ms 200 text/css
+INFO  2020-09-15 12:50:45,600 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.0367ms 404 
+INFO  2020-09-15 12:50:45,604 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.811ms 404 
+INFO  2020-09-15 12:50:45,609 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.1582ms 200 text/css
+INFO  2020-09-15 12:50:45,612 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 12:50:45,620 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8094ms 404 
+INFO  2020-09-15 12:50:45,624 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 12:50:45,625 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 12:50:45,629 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 12:50:45,632 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 12:50:45,637 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 12:50:45,639 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 12:50:45,646 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.9198ms 404 
+INFO  2020-09-15 12:50:45,650 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.0644ms 404 
+INFO  2020-09-15 12:50:45,654 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.3956ms 404 
+INFO  2020-09-15 12:50:45,657 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.3953ms 404 
+INFO  2020-09-15 12:50:45,666 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.383ms 404 
+INFO  2020-09-15 12:50:45,669 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.9449ms 404 
+INFO  2020-09-15 12:50:45,676 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 12:50:45,685 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=b2KtrIQPiO1d016BTstDE-REHGyUBpNhFmtaGwTt1K4  
+INFO  2020-09-15 12:50:45,687 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.3672ms 404 
+INFO  2020-09-15 12:50:45,694 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357710320332013  
+INFO  2020-09-15 12:50:45,697 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357710320332013  
+INFO  2020-09-15 12:50:45,703 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2020-09-15 12:50:45,707 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:45,725 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-09-15 12:50:45,731 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:45,732 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-09-15 12:50:45,735 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.0124ms 200 application/javascript
+INFO  2020-09-15 12:50:45,738 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.2135ms 200 application/javascript
+INFO  2020-09-15 12:50:45,740 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 12:50:45,747 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357710452759939  
+INFO  2020-09-15 12:50:45,751 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.9646ms 404 
+INFO  2020-09-15 12:50:45,755 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 12:50:45,757 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 12:50:45,771 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-15 12:50:45,776 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.3763ms 200 application/javascript
+INFO  2020-09-15 12:50:45,793 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 12:50:45,818 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-09-15 12:50:45,825 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.5134ms 200 image/png
+INFO  2020-09-15 12:50:45,834 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 12:50:45,849 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.3229ms 404 
+INFO  2020-09-15 12:50:45,850 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 12:50:45,868 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.2845ms 404 
+INFO  2020-09-15 12:50:45,904 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 12:50:45,915 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.2052ms 404 
+INFO  2020-09-15 12:50:45,926 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 12:50:45,944 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.6665ms 404 
+INFO  2020-09-15 12:50:45,960 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 12:50:45,987 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.7289ms 404 
+INFO  2020-09-15 12:50:46,007 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 12:50:46,034 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9034ms 404 
+INFO  2020-09-15 12:50:46,037 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 12:50:46,043 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 12:50:46,052 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5569ms 404 
+INFO  2020-09-15 12:50:46,062 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 297.9934ms
+INFO  2020-09-15 12:50:46,064 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 12:50:46,066 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:46,068 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 377.504ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-15 12:50:46,076 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6493ms 404 
+INFO  2020-09-15 12:50:46,083 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 12:50:46,118 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 12:50:46,129 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 325.6403ms
+INFO  2020-09-15 12:50:46,130 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.9657ms 404 
+INFO  2020-09-15 12:50:46,134 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:46,138 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 450.4342ms 200 application/x-javascript
+INFO  2020-09-15 12:50:46,142 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 12:50:46,152 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.4811ms 404 
+INFO  2020-09-15 12:50:46,157 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 12:50:46,167 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.3501ms 404 
+INFO  2020-09-15 12:50:46,171 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 12:50:46,181 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.7955ms 404 
+INFO  2020-09-15 12:50:46,184 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 12:50:46,193 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.2793ms 404 
+INFO  2020-09-15 12:50:46,198 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 12:50:46,207 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.6648ms 404 
+INFO  2020-09-15 12:50:46,212 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 12:50:46,220 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8947ms 404 
+INFO  2020-09-15 12:50:59,600 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-Hans&returnUrl=%2FAccount%2FLogin%3FReturnUrl%3D%252F  
+INFO  2020-09-15 12:50:59,611 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:59,625 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ChangeCulture(System.String, System.String) on controller Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController (Abp.AspNetCore).
+INFO  2020-09-15 12:50:59,644 [4    ] frastructure.LocalRedirectResultExecutor - Executing LocalRedirectResult, redirecting to /Account/Login?ReturnUrl=%2F.
+INFO  2020-09-15 12:50:59,648 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 18.5085ms
+INFO  2020-09-15 12:50:59,652 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-09-15 12:50:59,658 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.6715ms 302 
+INFO  2020-09-15 12:50:59,680 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-09-15 12:50:59,687 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:50:59,694 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller StudentMS.Web.Controllers.AccountController (StudentMS.Web.Mvc).
+INFO  2020-09-15 12:50:59,716 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-09-15 12:50:59,735 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 19.8547ms.
+INFO  2020-09-15 12:50:59,738 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc) in 41.2198ms
+INFO  2020-09-15 12:50:59,743 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:50:59,748 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.2494ms 200 text/html; charset=utf-8
+INFO  2020-09-15 12:50:59,867 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 12:50:59,870 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 12:50:59,889 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 12:50:59,894 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 12:50:59,897 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.1799ms 404 
+INFO  2020-09-15 12:50:59,901 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.4042ms 404 
+INFO  2020-09-15 12:50:59,906 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.137ms 404 
+INFO  2020-09-15 12:50:59,911 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.7539ms 404 
+INFO  2020-09-15 12:50:59,916 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 12:50:59,920 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 12:50:59,926 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 12:50:59,929 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 12:50:59,933 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.7679ms 404 
+INFO  2020-09-15 12:50:59,939 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.8309ms 404 
+INFO  2020-09-15 12:50:59,942 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.5955ms 404 
+INFO  2020-09-15 12:50:59,959 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.8412ms 404 
+INFO  2020-09-15 12:50:59,962 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 12:50:59,966 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 12:50:59,973 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 12:50:59,987 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.9935ms 404 
+INFO  2020-09-15 12:50:59,992 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.7973ms 404 
+INFO  2020-09-15 12:50:59,995 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.1303ms 404 
+INFO  2020-09-15 12:50:59,997 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 12:51:00,000 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 12:51:00,002 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 12:51:00,007 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 12:51:00,009 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.1573ms 404 
+INFO  2020-09-15 12:51:00,018 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1031ms 404 
+INFO  2020-09-15 12:51:00,024 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.2581ms 404 
+INFO  2020-09-15 12:51:00,035 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.2543ms 404 
+INFO  2020-09-15 12:51:00,038 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 12:51:00,050 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 12:51:00,066 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 12:51:00,068 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 12:51:00,070 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.3981ms 404 
+INFO  2020-09-15 12:51:00,072 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.2735ms 404 
+INFO  2020-09-15 12:51:00,078 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5113ms 404 
+INFO  2020-09-15 12:51:00,087 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 12:51:00,097 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.8735ms 404 
+INFO  2020-09-15 12:51:00,099 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637357710597331700  
+INFO  2020-09-15 12:51:00,102 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.5875ms 404 
+INFO  2020-09-15 12:51:00,107 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 12:51:00,128 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357710320332013  
+INFO  2020-09-15 12:51:00,130 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357710320332013  
+INFO  2020-09-15 12:51:00,134 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-09-15 12:51:00,136 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 12:51:00,140 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.1438ms 200 application/javascript
+INFO  2020-09-15 12:51:00,146 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 12:51:00,152 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.8975ms 404 
+INFO  2020-09-15 12:51:00,161 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 12:51:00,167 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 12:51:00,176 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 12:51:00,179 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.2864ms 404 
+INFO  2020-09-15 12:51:00,181 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 12:51:00,189 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.088ms 404 
+INFO  2020-09-15 12:51:00,191 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 12:51:00,194 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 12:51:00,197 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 15.7728ms
+INFO  2020-09-15 12:51:00,204 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.713ms 404 
+INFO  2020-09-15 12:51:00,207 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 12:51:00,209 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 12:51:00,212 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 104.7523ms 200 application/x-javascript
+INFO  2020-09-15 12:51:00,221 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.0601ms 404 
+INFO  2020-09-15 12:51:00,224 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 12:51:00,230 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1306ms 404 
+INFO  2020-09-15 12:51:00,233 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 12:51:00,240 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3054ms 404 
+INFO  2020-09-15 12:51:00,243 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 12:51:00,249 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8102ms 404 
+INFO  2020-09-15 12:51:00,252 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 12:51:00,257 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5951ms 404 
+INFO  2020-09-15 12:51:00,260 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 12:51:00,269 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3418ms 404 
+INFO  2020-09-15 12:51:00,269 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 12:51:00,275 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.3365ms 404 
+INFO  2020-09-15 12:51:00,277 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 12:51:00,285 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1532ms 404 
+INFO  2020-09-15 12:51:00,287 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 12:51:00,290 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 12:51:00,299 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 124.2337ms
+INFO  2020-09-15 12:51:00,302 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.8511ms 404 
+INFO  2020-09-15 12:51:00,303 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 12:51:00,306 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 12:51:00,310 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 194.3574ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-15 12:51:00,314 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1672ms 404 
+INFO  2020-09-15 12:51:00,317 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 12:51:00,323 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.79ms 404 
+INFO  2020-09-15 12:51:00,326 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 12:51:00,334 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.0948ms 404 
+INFO  2020-09-15 12:51:00,337 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 12:51:00,362 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.3268ms 404 
+INFO  2020-09-15 12:51:07,212 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 272
+INFO  2020-09-15 12:51:07,217 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:51:07,231 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(StudentMS.Web.Models.Account.LoginViewModel, System.String, System.String) on controller StudentMS.Web.Controllers.AccountController (StudentMS.Web.Mvc).
+INFO  2020-09-15 12:51:07,805 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-09-15 12:51:07,831 [18   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-09-15 12:51:07,863 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc) in 620.6893ms
+INFO  2020-09-15 12:51:07,867 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.AccountController.Login (StudentMS.Web.Mvc)'
+INFO  2020-09-15 12:51:07,871 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 658.7705ms 200 application/json; charset=utf-8
+INFO  2020-09-15 12:51:08,025 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 12:51:08,084 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.0839ms 404 
+DEBUG 2020-09-15 15:51:36,903 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 15:51:37,012 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 15:51:37,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.Web.Startup.StudentMSWebMvcModule, StudentMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSWebCoreModule, StudentMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSApplicationModule, StudentMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSCoreModule, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.EntityFrameworkCore.StudentMSEntityFrameworkModule, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:37,046 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 15:51:37,133 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 15:51:37,133 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 15:51:37,133 [1    ] o.Configuration.LanguageManagementConfig - Converted StudentMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 15:51:37,133 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 15:51:37,735 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: StudentMS.EntityFrameworkCore.StudentMSDbContext, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 15:51:38,964 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 15:51:39,149 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 15:51:39,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 15:51:39,266 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StudentMS
+DEBUG 2020-09-15 15:51:39,382 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 15:51:39,746 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 15:51:39,922 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[StudentMS.MultiTenancy.Tenant, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[StudentMS.Authorization.Users.User, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 15:51:39,978 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-09-15 15:51:39,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 15:51:39,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.UserDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.GradeDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.StudentDto
+DEBUG 2020-09-15 15:51:39,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 15:51:39,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 15:51:43,671 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 15:51:44,615 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Will\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 15:51:44,746 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 15:51:50,451 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-15 15:51:50,455 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 15:51:50,804 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller StudentMS.Web.Controllers.HomeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 15:51:51,143 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-15 15:51:53,095 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1960.7218ms.
+INFO  2020-09-15 15:51:53,129 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc) in 2306.9003ms
+INFO  2020-09-15 15:51:53,211 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 15:51:53,216 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css  
+INFO  2020-09-15 15:51:53,224 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css  
+INFO  2020-09-15 15:51:53,237 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css  
+INFO  2020-09-15 15:51:53,247 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css  
+INFO  2020-09-15 15:51:53,268 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css  
+INFO  2020-09-15 15:51:53,300 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8509.4195ms 200 text/html; charset=utf-8
+INFO  2020-09-15 15:51:53,320 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.8453ms 404 
+INFO  2020-09-15 15:51:53,333 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.7817ms 404 
+INFO  2020-09-15 15:51:53,345 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 91.3648ms 404 
+INFO  2020-09-15 15:51:53,360 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 91.3632ms 404 
+INFO  2020-09-15 15:51:53,362 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.2946ms 404 
+INFO  2020-09-15 15:51:53,397 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css  
+INFO  2020-09-15 15:51:53,408 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-09-15 15:51:53,411 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-09-15 15:51:53,419 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-09-15 15:51:53,425 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-09-15 15:51:53,428 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css  
+INFO  2020-09-15 15:51:53,434 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9958ms 404 
+INFO  2020-09-15 15:51:53,442 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.1983ms 404 
+INFO  2020-09-15 15:51:53,453 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.0618ms 404 
+INFO  2020-09-15 15:51:53,455 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-09-15 15:51:53,459 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css was not modified
+INFO  2020-09-15 15:51:53,460 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-09-15 15:51:53,472 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.0901ms 304 text/css
+INFO  2020-09-15 15:51:53,475 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.4668ms 304 text/css
+INFO  2020-09-15 15:51:53,536 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-09-15 15:51:53,544 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js  
+INFO  2020-09-15 15:51:53,547 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js  
+INFO  2020-09-15 15:51:53,554 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 15:51:53,582 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 145.112ms 200 text/css
+INFO  2020-09-15 15:51:53,592 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-09-15 15:51:53,597 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js  
+INFO  2020-09-15 15:51:53,615 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.3818ms 404 
+INFO  2020-09-15 15:51:53,658 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.6704ms 404 
+INFO  2020-09-15 15:51:53,662 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js  
+INFO  2020-09-15 15:51:53,680 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.6024ms 404 
+INFO  2020-09-15 15:51:53,686 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 15:51:53,690 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.7985ms 404 
+INFO  2020-09-15 15:51:53,693 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.5289ms 404 
+INFO  2020-09-15 15:51:53,697 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js  
+INFO  2020-09-15 15:51:53,721 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 148.1527ms 200 image/png
+INFO  2020-09-15 15:51:53,724 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js  
+INFO  2020-09-15 15:51:53,727 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.0246ms 404 
+INFO  2020-09-15 15:51:53,734 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.9476ms 404 
+INFO  2020-09-15 15:51:53,750 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js  
+INFO  2020-09-15 15:51:53,754 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 15:51:53,757 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 226.6592ms 404 
+INFO  2020-09-15 15:51:53,774 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 15:51:53,780 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.662ms 404 
+INFO  2020-09-15 15:51:53,783 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.6588ms 404 
+INFO  2020-09-15 15:51:53,788 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-09-15 15:51:53,792 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 15:51:53,797 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/spin/jquery.spin.js was not modified
+INFO  2020-09-15 15:51:53,812 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.4015ms 304 application/javascript
+INFO  2020-09-15 15:51:53,816 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.5892ms 404 
+INFO  2020-09-15 15:51:53,821 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 15:51:53,823 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.9954ms 404 
+INFO  2020-09-15 15:51:53,829 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 15:51:53,845 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js  
+INFO  2020-09-15 15:51:53,869 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.0647ms 404 
+INFO  2020-09-15 15:51:53,921 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.5301ms 404 
+INFO  2020-09-15 15:51:53,944 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 15:51:53,956 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 79.106ms 404 
+INFO  2020-09-15 15:51:53,956 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 15:51:53,963 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-09-15 15:51:53,968 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js  
+INFO  2020-09-15 15:51:53,988 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.8104ms 404 
+INFO  2020-09-15 15:51:53,990 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.5089ms 404 
+INFO  2020-09-15 15:51:53,993 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2020-09-15 15:51:54,007 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 15:51:54,018 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 15:51:54,023 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.0142ms 304 image/png
+INFO  2020-09-15 15:51:54,036 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 15:51:54,038 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.9431ms 404 
+INFO  2020-09-15 15:51:54,042 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 15:51:54,064 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.1004ms 404 
+INFO  2020-09-15 15:51:54,070 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.5881ms 404 
+INFO  2020-09-15 15:51:54,076 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.8318ms 404 
+INFO  2020-09-15 15:51:54,083 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js  
+INFO  2020-09-15 15:51:54,087 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5837ms 404 
+INFO  2020-09-15 15:51:54,090 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 15:51:54,093 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 15:51:54,121 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js  
+INFO  2020-09-15 15:51:54,129 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.7988ms 404 
+INFO  2020-09-15 15:51:54,132 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.8462ms 404 
+INFO  2020-09-15 15:51:54,142 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js  
+INFO  2020-09-15 15:51:54,144 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.6188ms 404 
+INFO  2020-09-15 15:51:54,147 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=WvPZBo8aS5BCH9lXO4jKDYCKhErwQFNf9ExkQC9cUsk  
+INFO  2020-09-15 15:51:54,151 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=b2KtrIQPiO1d016BTstDE-REHGyUBpNhFmtaGwTt1K4  
+INFO  2020-09-15 15:51:54,161 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-09-15 15:51:54,163 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2020-09-15 15:51:54,172 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.5527ms 200 application/javascript
+INFO  2020-09-15 15:51:54,190 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.1552ms 304 application/javascript
+INFO  2020-09-15 15:51:54,197 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.7877ms 404 
+INFO  2020-09-15 15:51:54,210 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 15:51:54,227 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637357818999232201  
+INFO  2020-09-15 15:51:54,239 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637357818999232201  
+INFO  2020-09-15 15:51:54,256 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.8226ms 404 
+INFO  2020-09-15 15:51:54,259 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 15:51:54,267 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 15:51:54,271 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js  
+INFO  2020-09-15 15:51:54,289 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.388ms 404 
+INFO  2020-09-15 15:51:54,302 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 223.4271ms 404 
+INFO  2020-09-15 15:51:54,309 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-09-15 15:51:54,311 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2020-09-15 15:51:54,314 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js  
+INFO  2020-09-15 15:51:54,334 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-09-15 15:51:54,346 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.9214ms 200 application/javascript
+INFO  2020-09-15 15:51:54,350 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.1301ms 404 
+INFO  2020-09-15 15:51:54,364 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-09-15 15:51:54,372 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js  
+INFO  2020-09-15 15:51:54,398 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.9105ms 404 
+INFO  2020-09-15 15:51:54,439 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js  
+INFO  2020-09-15 15:51:54,502 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.7765ms 404 
+INFO  2020-09-15 15:51:54,503 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js  
+INFO  2020-09-15 15:51:54,519 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.5842ms 404 
+INFO  2020-09-15 15:51:54,524 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js  
+INFO  2020-09-15 15:51:54,547 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.5626ms 404 
+INFO  2020-09-15 15:51:54,552 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js  
+INFO  2020-09-15 15:51:54,569 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.4844ms 404 
+INFO  2020-09-15 15:51:54,571 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js  
+INFO  2020-09-15 15:51:54,618 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8441ms 404 
+INFO  2020-09-15 15:51:54,624 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-09-15 15:51:54,626 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js  
+INFO  2020-09-15 15:51:54,651 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 262.1968ms
+INFO  2020-09-15 15:51:54,657 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.9284ms 404 
+INFO  2020-09-15 15:51:54,660 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-09-15 15:51:54,664 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js  
+INFO  2020-09-15 15:51:54,686 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 464.0272ms 200 application/x-javascript
+INFO  2020-09-15 15:51:54,688 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.626ms 404 
+INFO  2020-09-15 15:51:54,693 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js  
+INFO  2020-09-15 15:51:54,738 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.2846ms 404 
+INFO  2020-09-15 15:51:54,741 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js  
+INFO  2020-09-15 15:51:54,750 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-09-15 15:51:54,756 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 442.305ms
+INFO  2020-09-15 15:51:54,763 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.5898ms 404 
+INFO  2020-09-15 15:51:54,766 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-09-15 15:51:54,769 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 556.0668ms 200 application/x-javascript; charset=utf-8
+INFO  2020-09-15 15:51:54,772 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js  
+INFO  2020-09-15 15:51:54,786 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.4272ms 404 
+INFO  2020-09-15 15:51:54,789 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2020-09-15 15:51:54,810 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.164ms 404 
+INFO  2020-09-15 15:51:54,814 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2020-09-15 15:51:54,831 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.1821ms 404 
+INFO  2020-09-15 15:51:54,834 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2020-09-15 15:51:54,848 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.2591ms 404 
+INFO  2020-09-15 15:51:54,856 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2020-09-15 15:51:54,876 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.2211ms 404 
+INFO  2020-09-15 15:51:54,880 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2020-09-15 15:51:54,897 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.5692ms 404 
+INFO  2020-09-15 15:51:54,900 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2020-09-15 15:51:54,925 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.8444ms 404 
+INFO  2020-09-15 15:51:54,929 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js  
+INFO  2020-09-15 15:51:54,944 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.2435ms 404 
+INFO  2020-09-15 15:51:54,950 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js  
+INFO  2020-09-15 15:51:54,960 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.1086ms 404 
+INFO  2020-09-15 15:51:54,964 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js  
+INFO  2020-09-15 15:51:54,984 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.0849ms 404 
+INFO  2020-09-15 15:51:54,986 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js  
+INFO  2020-09-15 15:51:55,001 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.928ms 404 
+INFO  2020-09-15 15:51:55,004 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js  
+INFO  2020-09-15 15:51:55,013 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.9826ms 404 
+INFO  2020-09-15 15:51:55,023 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js  
+INFO  2020-09-15 15:51:55,042 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.8427ms 404 
+INFO  2020-09-15 15:55:27,506 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 15:55:27,608 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 102.8737ms 404 
+INFO  2020-09-15 15:55:28,054 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 15:55:28,097 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.0543ms 404 
+INFO  2020-09-15 15:55:28,664 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 15:55:28,679 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.126ms 404 
+INFO  2020-09-15 15:55:29,268 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 15:55:29,274 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.6312ms 404 
+INFO  2020-09-15 15:55:29,797 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/student/index  
+INFO  2020-09-15 15:55:29,824 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.StudentController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 15:55:29,838 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Student", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.StudentController (StudentMS.Web.Mvc).
+INFO  2020-09-15 15:55:30,931 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+ERROR 2020-09-15 15:55:30,939 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Student/Index.cshtml, /Views/Shared/Index.cshtml
+INFO  2020-09-15 15:55:30,958 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.StudentController.Index (StudentMS.Web.Mvc) in 1116.5287ms
+INFO  2020-09-15 15:55:30,961 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.StudentController.Index (StudentMS.Web.Mvc)'
+ERROR 2020-09-15 15:55:31,355 [24   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Student/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at StudentMS.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-09-15 15:55:31,397 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1602.9386ms 500 text/html; charset=utf-8
+INFO  2020-09-15 15:55:51,188 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/student/index  
+INFO  2020-09-15 15:55:51,210 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.StudentController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 15:55:51,224 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Student", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.StudentController (StudentMS.Web.Mvc).
+DEBUG 2020-09-15 16:01:24,460 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:01:24,558 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:01:24,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.Web.Startup.StudentMSWebMvcModule, StudentMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSWebCoreModule, StudentMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSApplicationModule, StudentMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSCoreModule, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.EntityFrameworkCore.StudentMSEntityFrameworkModule, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,599 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,601 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:24,606 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:01:24,761 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:01:24,761 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:01:24,761 [1    ] o.Configuration.LanguageManagementConfig - Converted StudentMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:01:24,761 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:01:25,392 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: StudentMS.EntityFrameworkCore.StudentMSDbContext, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:01:26,699 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:01:26,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:01:27,007 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:01:27,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StudentMS
+DEBUG 2020-09-15 16:01:27,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:01:27,487 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:01:27,710 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[StudentMS.MultiTenancy.Tenant, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[StudentMS.Authorization.Users.User, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:01:27,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-09-15 16:01:27,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:01:27,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:01:27,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.UserDto
+DEBUG 2020-09-15 16:01:27,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.GradeDto
+DEBUG 2020-09-15 16:01:27,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.StudentDto
+DEBUG 2020-09-15 16:01:27,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:01:27,799 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 16:01:31,996 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:01:32,596 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Will\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:01:32,705 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/grade/index  
+INFO  2020-09-15 16:01:32,709 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 16:01:32,709 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-09-15 16:01:32,894 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/grade/index  
+INFO  2020-09-15 16:01:33,067 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 367.7427ms 404 
+INFO  2020-09-15 16:01:38,640 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:01:38,680 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:01:38,691 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-09-15 16:01:38,710 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:01:39,073 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller StudentMS.Web.Controllers.HomeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 16:01:39,073 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Grade", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.GradeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 16:01:39,073 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Grade", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.GradeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 16:01:46,040 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-15 16:02:02,121 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-09-15 16:02:02,135 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+ERROR 2020-09-15 16:02:02,150 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Grade/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 2020-09-15 16:02:02,152 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index' was not found. Searched locations: /Views/Grade/Index.cshtml, /Views/Shared/Index.cshtml
+INFO  2020-09-15 16:02:02,185 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc) in 23097.2152ms
+INFO  2020-09-15 16:02:02,192 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc) in 23097.2339ms
+INFO  2020-09-15 16:02:02,200 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:02:02,210 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+ERROR 2020-09-15 16:02:02,681 [15   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Grade/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at StudentMS.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 2020-09-15 16:02:02,713 [14   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Grade/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at StudentMS.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-09-15 16:02:02,795 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30101.4425ms 500 text/html; charset=utf-8
+INFO  2020-09-15 16:02:02,801 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29912.0083ms 500 text/html; charset=utf-8
+INFO  2020-09-15 16:02:05,679 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc) in 26600.4877ms
+INFO  2020-09-15 16:02:05,682 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.HomeController.Index (StudentMS.Web.Mvc)'
+ERROR 2020-09-15 16:02:05,899 [9    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.FirstOrDefaultAsync(TPrimaryKey id)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at StudentMS.StudentMSAppServiceBase.GetCurrentUserAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Application\StudentMSAppServiceBase.cs:line 28
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at StudentMS.Sessions.SessionAppService.GetCurrentLoginInformations() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Application\Sessions\SessionAppService.cs:line 30
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at StudentMS.Web.Views.Shared.Components.RightNavbarUserArea.RightNavbarUserAreaViewComponent.InvokeAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Components\RightNavbarUserArea\RightNavbarUserAreaViewComponent.cs:line 23
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__Header_RightNavbar.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Header.RightNavbar.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Header.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Header.cshtml:line 3
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at StudentMS.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-09-15 16:02:05,940 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33247.0895ms 500 text/html; charset=utf-8
+DEBUG 2020-09-15 16:12:02,024 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:12:02,055 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:12:02,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.Web.Startup.StudentMSWebMvcModule, StudentMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSWebCoreModule, StudentMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSApplicationModule, StudentMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,087 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSCoreModule, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,087 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.EntityFrameworkCore.StudentMSEntityFrameworkModule, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,093 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,094 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,095 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:02,101 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:12:02,193 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:12:02,193 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:12:02,193 [1    ] o.Configuration.LanguageManagementConfig - Converted StudentMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:12:02,193 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:12:02,722 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: StudentMS.EntityFrameworkCore.StudentMSDbContext, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:12:03,466 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:12:03,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:12:03,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:12:03,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StudentMS
+DEBUG 2020-09-15 16:12:03,960 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:12:04,045 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:12:04,076 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[StudentMS.MultiTenancy.Tenant, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[StudentMS.Authorization.Users.User, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:12:04,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-09-15 16:12:04,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:12:04,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:12:04,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.UserDto
+DEBUG 2020-09-15 16:12:04,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.GradeDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.StudentDto
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:12:04,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 16:12:07,471 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:12:07,960 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Will\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:12:08,007 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Grade/Index  
+INFO  2020-09-15 16:12:08,127 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:12:09,779 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Grade", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.GradeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 16:12:10,449 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-09-15 16:12:10,670 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Grades' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,671 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'GradeId' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,684 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateCourse' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,695 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Code' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,695 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'DepartmentCode' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,695 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Credits' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,695 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Remarks' in localization source 'StudentMS'!
+WARN  2020-09-15 16:12:10,696 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Status' in localization source 'StudentMS'!
+INFO  2020-09-15 16:12:11,263 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc) in 1481.1739ms
+INFO  2020-09-15 16:12:11,264 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+ERROR 2020-09-15 16:12:11,302 [7    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at StudentMS.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewModel.GetShownLoginName() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Components\SideBarUserArea\SideBarUserAreaViewModel.cs:line 13
+   at AspNetCore.Views_Shared_Components_SideBarUserArea_Default.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Components\SideBarUserArea\Default.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult.ExecuteAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__SideBar.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_SideBar.cshtml:line 6
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at StudentMS.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\Users\Will\Desktop\StudentMS\5.7.0\aspnet-core\src\StudentMS.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-09-15 16:12:11,363 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3356.3784ms 500 text/html; charset=utf-8
+INFO  2020-09-15 16:12:11,853 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-09-15 16:12:11,869 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.6721ms 404 
+DEBUG 2020-09-15 16:13:08,735 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-15 16:13:08,765 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-09-15 16:13:08,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.Web.Startup.StudentMSWebMvcModule, StudentMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSWebCoreModule, StudentMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSApplicationModule, StudentMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.StudentMSCoreModule, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StudentMS.EntityFrameworkCore.StudentMSEntityFrameworkModule, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:08,794 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-09-15 16:13:08,860 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:13:08,861 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:13:08,861 [1    ] o.Configuration.LanguageManagementConfig - Converted StudentMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:13:08,861 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-09-15 16:13:09,254 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: StudentMS.EntityFrameworkCore.StudentMSDbContext, StudentMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-15 16:13:09,678 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-09-15 16:13:09,845 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-15 16:13:09,908 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-15 16:13:09,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StudentMS
+DEBUG 2020-09-15 16:13:09,971 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-09-15 16:13:10,040 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-09-15 16:13:10,073 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[StudentMS.MultiTenancy.Tenant, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[StudentMS.Authorization.Users.User, StudentMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-09-15 16:13:10,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-09-15 16:13:10,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-09-15 16:13:10,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.CreateUserDto
+DEBUG 2020-09-15 16:13:10,137 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Users.Dto.UserDto
+DEBUG 2020-09-15 16:13:10,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-09-15 16:13:10,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-09-15 16:13:10,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Roles.Dto.PermissionDto
+DEBUG 2020-09-15 16:13:10,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-09-15 16:13:10,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.MultiTenancy.Dto.TenantDto
+DEBUG 2020-09-15 16:13:10,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.GradeDto
+DEBUG 2020-09-15 16:13:10,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Models.Dto.StudentDto
+DEBUG 2020-09-15 16:13:10,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-09-15 16:13:10,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - StudentMS.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-09-15 16:13:13,142 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-09-15 16:13:13,707 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Will\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-09-15 16:13:13,790 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Grade/Index  
+INFO  2020-09-15 16:13:13,942 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:13:16,099 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Grade", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller StudentMS.Web.Controllers.GradeController (StudentMS.Web.Mvc).
+INFO  2020-09-15 16:13:17,055 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-09-15 16:13:17,332 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Grades' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,333 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'GradeId' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,343 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateCourse' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,353 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Code' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,354 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'DepartmentCode' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,354 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Credits' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,355 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Remarks' in localization source 'StudentMS'!
+WARN  2020-09-15 16:13:17,355 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Status' in localization source 'StudentMS'!
+INFO  2020-09-15 16:13:17,390 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 372.2711ms.
+INFO  2020-09-15 16:13:17,392 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc) in 1293.0142ms
+INFO  2020-09-15 16:13:17,393 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'StudentMS.Web.Controllers.GradeController.Index (StudentMS.Web.Mvc)'
+INFO  2020-09-15 16:13:17,412 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3617.8055ms 200 text/html; charset=utf-8

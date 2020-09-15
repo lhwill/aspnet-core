@@ -1,0 +1,31 @@
+﻿
+@using StudentMS.Web.Models.Common.Modals
+
+@model StudentMS.Web.Models.Grade.EditGradeViewModel
+@{
+    Layout = null;
+}
+@Html.Partial("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditCourse")))
+
+<div class="modal-body">
+    <form name="CourseEditForm" role="form" novalidate class="form-validation">
+        <input type="hidden" name="Id" value="@Model.Grades.Id" />
+        <div>
+            <div class="row clearfix">
+                
+                <div class="col-sm-6">
+                    <div class="form-line">
+                        <label class="form-label">@L("GradeName")</label>
+                        <input type="text" name="DepartmentCode" value="@Model.Grades.GName" class="form-control" required maxlength="50" />
+                    </div>
+                </div>
+            </div>
+            
+
+           
+          
+    </form>
+</div>
+@Html.Partial("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+
+<script src="~/view-resources/Views/Course/_EditCourseModal.js" asp-append-version="true"></script>
